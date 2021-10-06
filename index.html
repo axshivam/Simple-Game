@@ -1,5 +1,6 @@
-<!<!DOCTYPE html>
-<<!DOCTYPE html>
+<!-- https://uicolorpicker.com/ -->
+<!-- https://blog.hubspot.com/website/html-space -->
+<!DOCTYPE html>
 <html lang="en-US" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -7,8 +8,27 @@
     <link rel="stylesheet" href="Home.css">
   </head>
   <body>
-    <h1>Tic Tac Toe Game</h1>
+    <div id="main">
+      <h1 id="title">TIC TAC TOE</h1>
+      <p id="desc">Basic Tic Tac Toe game using javascript <br>First player is X and Second player is 0</p>
+      <br><br>
+      <input type="text" id="box1" onclick="fun1(); solve();" readonly> &ensp;&ensp;
+      <input type="text" id="box2" onclick="fun2(); solve();" readonly> &ensp;&ensp;
+      <input type="text" id="box3" onclick="fun3(); solve();" readonly> &ensp;&ensp;
+      <br><br>
+      <input type="text" id="box4" onclick="fun4(); solve();" readonly> &ensp;&ensp;
+      <input type="text" id="box5" onclick="fun5(); solve();" readonly> &ensp;&ensp;
+      <input type="text" id="box6" onclick="fun6(); solve();" readonly> &ensp;&ensp;
+      <br><br>
+      <input type="text" id="box7" onclick="fun7(); solve();" readonly> &ensp;&ensp;
+      <input type="text" id="box8" onclick="fun8(); solve();" readonly> &ensp;&ensp;
+      <input type="text" id="box9" onclick="fun9(); solve();" readonly> &ensp;&ensp;
+      <br><br><br>
+      <button id="btn" onclick="btnfun();">RESET</button>
+      <br><br>
+      <p id="print"></p>
+    </div>
 
-    <script type="text/javascript" src="index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
